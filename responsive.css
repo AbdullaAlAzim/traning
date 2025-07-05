@@ -1,0 +1,483 @@
+@media (max-width: 575px) {
+  header nav .navbar-wrapper {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+  }
+  header nav .navButton {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler-icon {
+    filter: brightness(20);
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+  #banner {
+    padding: 40px 0 20px 0;
+  }
+  #banner .bannerBtn {
+    margin-bottom: 12px;
+  }
+  #banner .bannerItem {
+    margin-top: 50px;
+  }
+  #banner .bannerItem .item .icon {
+    top: -50%;
+  }
+  #banner .bannerItem .item {
+    padding-top: 28px;
+    padding-bottom: 16px;
+  }
+  #banner .bannerItem .item h3 {
+    font-size: 28px;
+  }
+  #banner .bannerItem .item h6 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #banner .bannerTitle h4 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  #banner .bannerBtn button {
+    padding: 10px 12px;
+  }
+
+  #plan {
+    padding: 32px 0;
+  }
+  #plan .title h2 {
+    font-size: 32px;
+  }
+  #plan .service {
+    margin-top: 32px;
+  }
+  #plan .service .item {
+    width: 100%;
+  }
+  #premium {
+    padding: 28px 0;
+  }
+  #premium .title h2 {
+    font-size: 32px;
+  }
+  #premium .courseWrapper {
+    margin-top: 20px !important;
+    gap: 16px !important;
+    padding: 0 20px;
+  }
+  #premium .courseCard {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  #SuccessStory {
+    padding: 32px 0;
+  }
+  #SuccessStory .title h2 {
+    font-size: 32px;
+  }
+  #SuccessStory .story {
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  #feedback {
+    padding: 0 0 32px 0;
+  }
+  #feedback .title h2 {
+    font-size: 32px;
+  }
+
+  #topCompanies {
+    padding: 32px 0;
+  }
+  #topCompanies .content {
+    padding: 20px;
+  }
+  #topCompanies .content .title h2 {
+    font-size: 32px;
+    margin-bottom: 36px;
+  }
+  #topCompanies .content .companies {
+    margin-bottom: 32px;
+  }
+  #topCompanies .carousel-indicators {
+    bottom: -20px;
+  }
+
+  #team {
+    padding: 32px 0;
+  }
+  #team .teamContent .title h2 {
+    font-size: 32px;
+  }
+  #team .teamContent .cardWrapper .cardItem .info h3 {
+    font-size: 28px;
+  }
+  #team .teamContent .cardWrapper .cardItem .info span {
+    font-size: 18px;
+  }
+  #team .teamContent .cardWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #faq {
+    padding: 32px 0;
+  }
+  #faq .faqContent {
+    padding: 20px;
+  }
+  #faq .faqContent .title {
+    margin-bottom: 0 !important;
+  }
+  #faq .faqContent .title h2 {
+    font-size: 32px;
+  }
+  #faq .faqContent .faqItems {
+    gap: 20px;
+  }
+  #faq .faqContent .questions {
+    padding: 20px 10px;
+  }
+  #faq .faqContent .questionBG {
+    padding: 1px 10px;
+  }
+  #faq .faqContent .accordion .accordion-button span i {
+    width: 28px;
+    height: 28px;
+  }
+
+  #blog {
+    padding: 32px 0;
+  }
+  #blog .blogContent {
+    padding: 20px;
+  }
+  #blog .blogContent .title h2 {
+    font-size: 32px;
+  }
+  #blog .blogContent .title h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #blog .blogContent .blogCards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  #blog .blogContent .blogCards .cardItem {
+    width: 100%;
+  }
+
+  #subscribe .subscribeContent .title h2 {
+    font-size: 32px;
+  }
+  #subscribe .subscribeContent form input {
+    width: 90%;
+  }
+  .subscribeContent form .subsBtn button {
+    width: 150px;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .subscribeContent form .subsBtn {
+    gap: 10px;
+    margin-top: 10px;
+  }
+  footer .footerItem {
+    gap: 20px;
+  }
+  footer .item h3 {
+    margin-bottom: 12px;
+  }
+  footer .item ul {
+    gap: 10px;
+  }
+  footer .copyright {
+    margin-top: 28px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  header nav .navbar-wrapper {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+  }
+  header nav .navButton {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler-icon {
+    filter: brightness(20);
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+  #banner {
+    padding: 60px 0 30px 0;
+  }
+  #banner .bannerBtn {
+    margin-bottom: 12px;
+  }
+  #banner .bannerItem {
+    margin-top: 50px;
+  }
+  #banner .bannerItem .item .icon {
+    top: -70%;
+  }
+  #banner .bannerItem .item {
+    padding-top: 28px;
+    padding-bottom: 16px;
+  }
+  #banner .bannerItem .item h3 {
+    font-size: 36px;
+  }
+  #banner .bannerItem .item h6 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  #banner .bannerTitle h4 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  #banner .bannerBtn button {
+    padding: 10px 12px;
+  }
+
+  #plan {
+    padding: 32px 0;
+  }
+  #plan .title h2 {
+    font-size: 32px;
+  }
+  #plan .service {
+    margin-top: 32px;
+  }
+  #plan .service .item {
+    width: 50%;
+  }
+  #premium {
+    padding: 28px 0;
+  }
+  #plan .title h2 {
+    font-size: 36px;
+  }
+  #premium .courseWrapper {
+    margin-top: 20px !important;
+    gap: 16px !important;
+    padding: 0 54px;
+  }
+  #premium .courseCard {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #SuccessStory {
+    padding: 32px 0;
+  }
+  #SuccessStory .title h2 {
+    font-size: 32px;
+    padding: 0 20px;
+  }
+  #SuccessStory .story {
+    padding: 0 10px;
+  }
+
+  #feedback {
+    padding: 0 0 32px 0;
+  }
+  #feedback .studentFeedback {
+    padding: 0 20px;
+  }
+  #feedback .title h2 {
+    font-size: 32px;
+  }
+
+  #topCompanies {
+    padding: 32px 0;
+  }
+  #topCompanies .content {
+    padding: 20px;
+  }
+  #topCompanies .content .title h2 {
+    font-size: 32px;
+    margin-bottom: 36px;
+  }
+  #topCompanies .content .companies {
+    margin-bottom: 32px;
+  }
+  #topCompanies .carousel-indicators {
+    bottom: -20px;
+  }
+
+  #team {
+    padding: 32px 0;
+  }
+  #team .teamContent .title h2 {
+    font-size: 32px;
+  }
+  #team .teamContent .cardWrapper .cardItem {
+    width: 100%;
+  }
+  #team .teamContent .cardWrapper .cardItem img {
+    width: 100%;
+  }
+  #team .teamContent .cardWrapper .cardItem .info h3 {
+    font-size: 28px;
+  }
+  #team .teamContent .cardWrapper .cardItem .info span {
+    font-size: 18px;
+  }
+  #team .teamContent .cardWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #faq {
+    padding: 32px 0;
+  }
+  #faq .faqContent {
+    padding: 20px;
+  }
+  #faq .faqContent .title {
+    margin-bottom: 0 !important;
+  }
+  #faq .faqContent .title h2 {
+    font-size: 32px;
+  }
+  #faq .faqContent .faqItems {
+    gap: 20px;
+  }
+  #faq .faqContent .questions {
+    padding: 20px 10px;
+  }
+  #faq .faqContent .questionBG {
+    padding: 1px 10px;
+  }
+  #faq .faqContent .accordion .accordion-button span i {
+    width: 28px;
+    height: 28px;
+  }
+
+  #blog {
+    padding: 32px 0;
+  }
+  #blog .blogContent {
+    padding: 20px;
+  }
+  #blog .blogContent .title h2 {
+    font-size: 32px;
+  }
+  #blog .blogContent .title h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #blog .blogContent .blogCards {
+    padding: 0 54px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  #blog .blogContent .blogCards .cardItem {
+    width: 100%;
+  }
+  #blog .blogContent .blogCards .cardItem .image {
+    width: 100%;
+  }
+  #blog .blogContent .blogCards .cardItem .info {
+    padding: 30px 16px;
+  }
+
+  #subscribe .subscribeContent .title h2 {
+    font-size: 32px;
+  }
+  #subscribe .subscribeContent form input {
+    width: 90%;
+  }
+  .subscribeContent form .subsBtn button {
+    width: 150px;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+  .subscribeContent form .subsBtn {
+    gap: 10px;
+    margin-top: 10px;
+  }
+  footer .footerItem {
+    text-align: center;
+    gap: 20px;
+  }
+  footer .item h3 {
+    margin-bottom: 12px;
+  }
+  footer .item ul {
+    gap: 10px;
+  }
+  footer .copyright {
+    margin-top: 28px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header nav .navbar-wrapper {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+  }
+  header nav .navButton {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler-icon {
+    filter: brightness(20);
+  }
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+  #banner {
+    padding: 60px 0;
+  }
+
+  #premium .courseCard h5 {
+    display: none;
+  }
+  #SuccessStory {
+    padding: 60px 0;
+  }
+  #feedback {
+    padding: 0 0 60px 0;
+  }
+  #topCompanies {
+    padding: 60px 0 46px 0;
+  }
+  #team {
+    padding: 60px 0;
+  }
+  #team .teamContent {
+    padding: 20px;
+  }
+  #team .teamContent .cardWrapper .cardItem {
+    width: 32%;
+  }
+  #faq {
+    padding: 60px 0;
+  }
+  #blog {
+    padding: 60px 0;
+  }
+  footer .footerItem .item {
+    text-align: center;
+  }
+  footer .item p {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
